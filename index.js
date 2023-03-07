@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("This is home page");
+  res.send("this is a homepage for oop shop api");
 });
 
 // all products
